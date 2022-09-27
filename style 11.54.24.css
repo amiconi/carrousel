@@ -1,0 +1,103 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header{
+    background-image: linear-gradient(black(0,0,0,0,6)) url(./Image.jpg);
+    height: 50vmax;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo a{
+    color: rgb(245, 244, 242);
+    padding: 0px 20px;
+    border: 1px solid rgb(231, 227, 219);
+    position: fixed;
+    top: 10px ;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgb(0red, 0green, 0blue);
+}
+
+.logo span{
+    color: rgb(229, 209, 209);
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(238, 221, 221);
+    padding:10px;
+    text-transform: uppercase;
+    border: 1px solid; color: aliceblue;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+ul li a:hover{
+    background-color: rgb(207, 220, 232);
+    color: black;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.titre{
+    position:calc(centre);
+    top: 50%;
+    left: 50;
+    transform: translate(-50%,-50%);
+
+}
+.titre h1{
+    color: aliceblue;
+    font-size: 70px;
+}
+.bouton{
+    position:calc(centre);
+    top: 60px%;
+    left: 50;
+    transform: translate(-50%,-50%);
+}
+.bouton a{
+    color: antiquewhite;
+    text-decoration: none;
+    border: 1px solid cornsilk;
+    padding: 10px 20px;
+}
+
+.btn{
+    transition: 00.6s ease;
+}
+?btn:hover{
+    background-color: blanchedalmond;
+    color: black;
+
+}
+
+ 
